@@ -1,13 +1,15 @@
+<script lang="ts">
+	import logo from '$lib/assets/logo.png';
+</script>
+
 <div class="bg-white text-gray-800 antialiased">
     
     <!-- Navigation -->
     <nav class="fixed w-full bg-white/95 backdrop-blur-sm shadow-sm z-50 transition-all">
         <div class="max-w-7xl mx-auto px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
-                <div class="flex items-center">
-                    <h1 class="text-3xl font-bold gradient-text">Serene Healing</h1>
-                </div>
-                <div class="hidden lg:flex items-center space-x-8">
+                <div class="hidden lg:flex items-center space-x-15">
+                    <img class= "h-40" src={logo} alt="logo">
                     <a href="#who-i-am" class="text-sm font-medium text-gray-700 hover:text-green-600 transition">Who I Am</a>
                     <a href="#what-i-treat" class="text-sm font-medium text-gray-700 hover:text-green-600 transition">What I Treat</a>
                     <a href="#my-approach" class="text-sm font-medium text-gray-700 hover:text-green-600 transition">My Approach</a>
