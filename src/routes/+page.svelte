@@ -1,6 +1,14 @@
 <script lang="ts">
 	import logo from '$lib/assets/logo.png';
+	import favicon from '$lib/assets/favicon.svg';
 </script>
+
+
+
+<svelte:head>
+	<link rel="icon" href={favicon} />
+	<title>Holistic Physiotherapy - Healing Mind, Body & Spirit</title>
+</svelte:head>
 
 <div class="bg-white text-gray-800 antialiased">
     

@@ -1,13 +1,19 @@
 <script lang="ts">
+	import Header from './Header.svelte';
 	import '../app.css';
-	import favicon from '$lib/assets/favicon.svg';
-
 	let { children } = $props();
 </script>
 
-<svelte:head>
-	<link rel="icon" href={favicon} />
-	<title>Holistic Physiotherapy - Healing Mind, Body & Spirit</title>
-</svelte:head>
 
-{@render children?.()}
+<div class="app">
+	<Header />
+
+	<main>
+		{@render children()}
+	</main>
+	<footer>
+		<p>
+			Jake Ramsden
+		</p>
+	</footer>
+</div>
