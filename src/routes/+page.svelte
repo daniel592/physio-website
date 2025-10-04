@@ -1,4 +1,4 @@
-<body class="bg-white text-gray-800 antialiased">
+<div class="bg-white text-gray-800 antialiased">
     
     <!-- Navigation -->
     <nav class="fixed w-full bg-white/95 backdrop-blur-sm shadow-sm z-50 transition-all">
@@ -211,4 +211,4 @@
             </div>
         </div>
     </section>
-</body>
+</div>
